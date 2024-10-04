@@ -9,6 +9,6 @@ public class ComputationService {
     @GetMapping("/square/{number}")
     public String calculateSquare(@PathVariable int number) {
     	int result = number * number;
-        return "25";
+        return "" + result;
     }
 } 
